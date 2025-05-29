@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Shubham Pingale - Portfolio</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="profile">
+            <img src="/static/images/profile.jpeg" alt="Shubham Pingale" />
+            <div class="info">
+                <h1>Shubham Pingale</h1>
+                <p>Java FullStack Developer </p>
+                <p class="bio">I'm a web developer with a focus on Java, Spring Boot, HTML, CSS, and JavaScript. I enjoy building clean, functional, and user-friendly applications. I’m always eager to learn and improve through real-world projects.</p>
+                <div class="contact">
+                    <a href="mailto:khalid@techgulf.com">sdpingale22@gmail.com</a>
+                    <span>+91 9923403006</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <aside>
+            <h2>About</h2>
+            <p>A passionate FullStack Developer With Strong intreast in JavaBacken Development .</p>
+            <p><strong>📍</strong> Pune, Maharashtra, India  </p>
+            <p><strong>🏢</strong> Innover Infotech</p>
+            <p><strong>🔗</strong> <a href="https://FreePik.com">Freepik</a></p>
+        </aside>
+
+        <section>
+            <nav>
+                <button class="tab-btn active" data-tab="projects">Projects</button>
+                <button class="tab-btn" data-tab="resume">Resume</button>
+                <button class="tab-btn" data-tab="contact">Contact</button>
+            </nav>
+
+            <div id="projects" class="tab-content active">
+                <div class="card-grid">
+                    <div class="card">
+                        <img src="/static/images/stock-photo-app.jpg" alt="Stock Photo App" />
+                        <h3>Pixstock - Stock Media App</h3>
+                        <p>Web App</p>
+                        <a href="https://in.pinterest.com/">Visit Stock Photo App</a>
+
+                    </div>
+                    <div class="card">
+                        <img src="/static/images/recipe-app.jpg" alt="Recipe App" />
+                        <h3>Cook.io - Recipe App</h3>
+                        <p>Web App</p>
+                        <a href=" https://dribbble.com/tags/food-recipe-app/">Visit Food Recipe App</a>
+
+                    </div>
+                    <div class="card">
+                        <img src="/static/images/github-clone.jpg" alt="GitHub Clone" />
+                        <h3>GitHub Clone App</h3>
+                        <p>Web App</p>
+                        <a href=" https://github.com/">Visit Git Hub App</a>
+
+                    </div>
+                    <div class="card">
+                        <img src="/static/images/weather-app..jpg" alt="Weather App" />
+                        <h3>Weather App & Forecast</h3>
+                        <p>Web App</p>
+                        <a href="https://openweathermap.org/">Visit Weather App</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="resume" class="tab-content">
+                <h3>Professional Summary</h3>
+                <p>Passionate Fullstack Developer with 2+ years of experience building scalable web applications and working with modern Java 8, Spring frameworks. Seeking challenging roles to contribute to Innover Infotech.</p>
+
+                <h3>Skills</h3>
+                <ul class="skills">
+                    <li>Java 8</li>
+                    <li>MySQL</li>
+                    <li>Spring Boot</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>HTML & CSS</li>
+                    <li>Git & GitHub</li>
+                </ul>
+
+                <h3>Experience</h3>
+                <div class="job">
+                    <h4>Junior Full Stack Developer – Innover Infotech</h4>
+                    <span>Aug 2023 – Present</span>
+                    <ul>
+                        <li>Led a team of 4 developers to deliver 10+ client projects on time.</li>
+                        <li>Implemented React apps with Redux and modern UI libraries.</li>
+                        <li>Improved website performance by 30% through code optimization.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h4>Web Developer – Cairo Web Lab</h4>
+                    <span>Jun 2018 – Dec 2020</span>
+                    <ul>
+                        <li>Created and maintained internal tools using JavaScript and Node.js.</li>
+                        <li>Collaborated with designers to build responsive UIs.</li>
+                    </ul>
+                </div>
+
+                <h3>Education</h3>
+                <p><strong>B.Sc. in Computer Science</strong> – Pune University (2019 - 2023)</p>
+
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Java Full Stack Developer – IT Steps</li>
+                    <li>Frontend Developer Certification – Apna College</li>
+                </ul>
+
+                <a href="/static/images/Shubham_Pingale_Resume.pdf" target="_blank" class="download-btn">Download PDF</a>
+            </div>
+
+
+            <div id="contact" class="tab-content">
+                <p>Contact form or info goes here...</p>
+                <h3>Contact Me</h3>
+                <p>Feel free to get in touch! You can fill out the form below or email me directly at <a href="mailto:sdpingale22@gmail.com">sdpingale22@gmail.com</a>.</p>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <p><strong>Email:</strong> sdpingale22@gmail.com</p>
+                    <p><strong>Phone:</strong> +91 9923403006</p>
+                    <p><strong>Location:</strong> Pune, Maharashtra, India </p>
+                    <div class="socials">
+                        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                        <a href="https://github.com" target="_blank">GitHub</a>
+                        <a href="https://x.com/shubham82261103" target="_blank">Twitter</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</div>
+
+<script src="/static/js/script.js">
+    document.querySelector("form").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const data = {
+        name: document.querySelector("input[placeholder='Your Name']").value,
+        email: document.querySelector("input[placeholder='Your Email']").value,
+        message: document.querySelector("textarea[placeholder='Your Message']").value,
+    };
+
+    const response = await fetch("http://localhost:8080/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+    });
+
+    if (response.ok) {
+        alert("Message sent successfully!");
+    } else {
+        alert("Something went wrong.");
+    }
+});+
+</script>
+</body>
+</html>

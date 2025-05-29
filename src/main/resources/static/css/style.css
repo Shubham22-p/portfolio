@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f11;
+  color: #e5e5e5;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.info h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.bio {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.contact a, .contact span {
+  display: inline-block;
+  margin-top: 8px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.main {
+  display: flex;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+aside {
+  width: 250px;
+  background: #1c1c1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+aside h2 {
+  margin-top: 0;
+}
+
+section {
+  flex: 1;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  color: #aaa;
+  padding: 10px 20px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab-btn.active {
+  color: #fff;
+  border-bottom: 2px solid #6c63ff;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1f1f22;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #2b2b2e;
+  color: #fff;
+  font-size: 14px;
+}
+
+.contact-form button {
+  padding: 10px;
+  border: none;
+  background-color: #6c63ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #5952cc;
+}
+
+.contact-info p,
+.contact-info a {
+  margin: 5px 0;
+  color: #ccc;
+  font-size: 14px;
+}
+
+.socials a {
+  margin-right: 15px;
+  color: #6c63ff;
+  text-decoration: none;
+}
+
+.socials a:hover {
+  text-decoration: underline;
+}
