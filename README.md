@@ -11,4 +11,4 @@ A professional and responsive portfolio web application built using Spring Boot 
 8. Java-based modular and maintainable architecture
 9. Easy to customize and deploy
 
-    ![Homepage](https://github.com/your-username/your-repo-name/blob/main/screenshots/homepage.png)
+    ![Homepage]([https://github.com/your-username/your-repo-name/blob/main/screenshots/homepage.png](https://github.com/Shubham22-p/portfolio/blob/ddb40b47798566a14467f6051040e47c03e29aa0/Screenshot%202025-05-29%20112432.png))
